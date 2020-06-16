@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Project Shield</title>
+    <base href="/">
+    <link rel="icon" type="image/x-icon" href="static/icons/favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Google+Sans:300,400,500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Google+Sans+Display:300,400,500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Google+Sans:medium" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="common/theme/theme.css">
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript" src="/third_party.js"></script>
+  </head>
+
+  <body>
+    <shield-app i18n="A temporary text indicating that the page is loading">Loading...</shield-app>
+
+    <script type="text/javascript">
+      (function() {
+        // Extract requested locale from the query string.
+        let match = /^\?.*hl=([^&]*)/.exec(window.location.search);
+        let locale;
+        // If a locale was provided, use it. Otherise, use the detected locale.
+        if (match && match[1]) {
+          locale = match[1];
+        } else {
+          locale = window.navigator.language || window.navigator.userLanguage;
+        }
+
+        const translatedLocales = ["en", "es", "fr", "de", "it", "pt-BR", "tr", "pl", "nl"];
+        // Created the new script element to bring in the correct bundle.
+        // if translation is not available for the locale, use default bundle.
+        // Otherwise, use translated bundle.
+        let scriptEl = document.createElement('script');
+        if (translatedLocales.indexOf(locale) < 0 || locale == 'en' || locale == 'en-US') {
+          scriptEl.src = '/bundle.js';
+        } else {
+          // Convert the locale to the format used in the bundle filenames:
+          // 1) Convert all characters to lowercase.
+          // 2) Convert all dashes to underscores.
+          // For example, en-US will be converte to en_us.
+          let localeInFilename = locale.toLowerCase().replace(/-/g, '_');
+          scriptEl.src = '/bundle__' + localeInFilename + '.js';
+        }
+        // Add lang attribute on the body for correct i18n capitalization
+        document.body.setAttribute('lang', locale);
+        // Add the script to the DOM.
+        document.body.appendChild(scriptEl);
+      })();
+    </script>
+  </body>
+</html>
