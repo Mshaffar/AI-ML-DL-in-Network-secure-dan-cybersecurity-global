@@ -1,6 +1,7 @@
 
-# AI-UI-ML-DL-IOT-in-Network-secure-dan-cybersecurity-global
-AI-UI/iOT&amp;ML/DL in Network secure global dan cybersecurity global
+# AI-UI-ML-DL-IOT-in-Network-secure-global-and-cybersecurity-global
+# cycle time secure security in internet network/ strong secure security world
+# AI-UI/iOT&amp;ML/DL in Network secure global dan cybersecurity global
 
 Quantum supremacy using a programmable 
 superconducting processor
