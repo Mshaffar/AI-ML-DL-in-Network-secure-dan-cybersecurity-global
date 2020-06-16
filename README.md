@@ -1,91 +1,10 @@
-#http://webmaster.com/
-# AI-ML-DL-in-Network-secure-dan-cybersecurity-global
-AI/iOT&amp;ML/DL in Network secure global dan cybersecurity global
+
+# AI-UI-ML-DL-IOT-in-Network-secure-dan-cybersecurity-global
+AI-UI/iOT&amp;ML/DL in Network secure global dan cybersecurity global
 
 Quantum supremacy using a programmable 
 superconducting processor
-Frank Arute1
-, Kunal Arya1
-, Ryan Babbush1
-, Dave Bacon1
-, Joseph C. Bardin1,2, Rami Barends1
-, 
-Rupak Biswas3
-, Sergio Boixo1
-, Fernando G. S. L. Brandao1,4, David A. Buell1
-, Brian Burkett1
-, 
-Yu Chen1
-, Zijun Chen1
-, Ben Chiaro5
-, Roberto Collins1
-, William Courtney1
-, Andrew Dunsworth1
-, 
-Edward Farhi1
-, Brooks Foxen1,5, Austin Fowler1
-, Craig Gidney1
-, Marissa Giustina1
-, Rob Graff1
-, 
-Keith Guerin1
-, Steve Habegger1
-, Matthew P. Harrigan1
-, Michael J. Hartmann1,6, Alan Ho1
-, 
-Markus Hoffmann1
-, Trent Huang1
-, Travis S. Humble7
-, Sergei V. Isakov1
-, Evan Jeffrey1
-, 
-Zhang Jiang1
-, Dvir Kafri1
-, Kostyantyn Kechedzhi1
-, Julian Kelly1
-, Paul V. Klimov1
-, Sergey Knysh1
-, 
-Alexander Korotkov1,8, Fedor Kostritsa1
-, David Landhuis1
-, Mike Lindmark1
-, Erik Lucero1
-, 
-Dmitry Lyakh9
-, Salvatore Mandrà3,10, Jarrod R. McClean1
-, Matthew McEwen5
-, 
-Anthony Megrant1
-, Xiao Mi1
-, Kristel Michielsen11,12, Masoud Mohseni1
-, Josh Mutus1
-, 
-Ofer Naaman1
-, Matthew Neeley1
-, Charles Neill1
-, Murphy Yuezhen Niu1
-, Eric Ostby1
-, 
-Andre Petukhov1
-, John C. Platt1
-, Chris Quintana1
-, Eleanor G. Rieffel3
-, Pedram Roushan1
-, 
-Nicholas C. Rubin1
-, Daniel Sank1
-, Kevin J. Satzinger1
-, Vadim Smelyanskiy1
-, Kevin J. Sung1,13, 
-Matthew D. Trevithick1
-, Amit Vainsencher1
-, Benjamin Villalonga1,14, Theodore White1
-, 
-Z. Jamie Yao1
-, Ping Yeh1
-, Adam Zalcman1
-, Hartmut Neven1
- & John M. Martinis1,5*
+
 The promise of quantum computers is that certain computational tasks might be 
 executed exponentially faster on a quantum processor than on a classical processor1
 . A 
@@ -471,7 +390,7 @@ Coupler
 Cycle 1 2 3 4 5 6 m
 Time
 Column Row
-7 8
+7 8 it
 A B C D C D A B
 A
 B
